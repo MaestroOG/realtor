@@ -1,0 +1,87 @@
+.newletter {
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.newletter-left img {
+    width: 100%;
+}
+
+.newletter-left,
+.newletter-right {
+    width: 50%;
+}
+
+.newletter-right {
+    background: var(--blue-color);
+    color: #FFF;
+    display: flex;
+    align-items: center;
+}
+
+.newletter-right h2 {
+    font-family: "Shippori Mincho";
+    font-weight: 600;
+    font-size: 2.37rem;
+}
+
+.newletter-right p {
+    font-size: 1.12rem;
+    font-weight: 300;
+}
+
+.text-container {
+    width: 76%;
+    margin: 2em auto 0;
+}
+
+.text-container * {
+    margin-top: 16px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    padding: 2em 0 1.2em;
+    color: #FFF;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 1.12rem;
+    border-bottom: 2px solid #FFF;
+    margin-bottom: 10px;
+}
+
+form input::placeholder {
+    font-size: 1.12rem;
+    color: #FFF;
+}
+
+form button {
+    width: 32%;
+    font-size: 1.08rem;
+    padding: 1em 0;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    background: var(--yellow-color);
+    cursor: pointer;
+}
+
+@media (max-width: 700px) {
+    .newletter {
+        flex-direction: column;
+    }
+
+    .newletter-left,
+    .newletter-right {
+        width: 100%;
+    }
+
+    .newletter-right {
+        padding-bottom: 2.4em;
+    }
+}

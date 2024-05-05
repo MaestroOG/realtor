@@ -1,0 +1,75 @@
+.footer {
+    display: flex;
+    align-items: center;
+    padding: 2em 1.5em;
+    justify-content: baseline;
+}
+
+.flex {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-one {
+    gap: 20px;
+}
+
+.flex-one p {
+    color: var(--light-blue-color);
+    font-weight: 300;
+    font-size: 1.12rem;
+}
+
+.footer-social * {
+    color: var(--text-color);
+    font-size: 2rem;
+    margin-right: 20px;
+}
+
+.flex-two {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    font-size: 1.12rem;
+}
+
+.flex-two h2 {
+    font-family: "Shippori Minchos";
+    font-size: 1.8rem;
+    color: var(--light-blue-color);
+    font-weight: 400;
+}
+
+.flex-two ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.flex-two ul li {
+    list-style: none;
+    color: var(--text-color);
+}
+
+.love {
+    text-align: center;
+    margin: 20px;
+}
+
+@media (max-width: 700px) {
+    .footer {
+        flex-direction: column;
+    }
+
+    .flex {
+        width: 100%;
+        margin-top: 1em;
+    }
+
+    .flex-one {
+        justify-content: center;
+        margin-bottom: 1.5em;
+    }
+}

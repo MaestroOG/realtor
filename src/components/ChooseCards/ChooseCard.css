@@ -1,0 +1,39 @@
+.choose-container {
+    max-width: 400px;
+    border: 1px solid var(--text-color);
+    padding: 1.8em 1.9em;
+}
+
+.data-container {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding-bottom: 2em;
+}
+
+.number {
+    background-color: var(--yellow-color);
+    width: fit-content;
+    font-size: 1.4rem;
+    padding: 1em;
+    border-radius: 9999px;
+    color: var(--blue-color);
+}
+
+.data-container h4 {
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: var(--light-blue-color);
+}
+
+.data-container p {
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: var(--text-color);
+}
+
+@media (max-width: 700px) {
+    .choose-container {
+        margin: auto;
+    }
+}

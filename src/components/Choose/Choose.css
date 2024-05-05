@@ -1,0 +1,59 @@
+.prop-top {
+    /* background: aqua; */
+    max-width: 680px;
+    margin: 5em auto;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    flex-direction: column;
+    text-align: center;
+}
+
+.prop-top-details h2 {
+    font-size: 2.3rem;
+    font-family: "Shippori Mincho";
+    color: var(--blue-color);
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.prop-top-details p {
+    color: var(--text-color);
+    width: 85%;
+    margin: 0 auto;
+    font-size: 1.12rem;
+}
+
+.data-wrapper {
+    display: flex;
+    margin-bottom: 3.4em;
+}
+
+.btn-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-container button {
+    font-size: 1.15rem;
+    padding: 1em 3em;
+    color: #FFF;
+    background: var(--light-blue-color);
+    border: none;
+    outline: none;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: .4s all ease;
+}
+
+.btn-container button:hover {
+    background-color: var(--yellow-color);
+}
+
+@media (max-width: 700px) {
+    .data-wrapper {
+        flex-direction: column;
+    }
+}

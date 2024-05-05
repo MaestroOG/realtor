@@ -1,0 +1,30 @@
+.prop-top {
+    /* background: aqua; */
+    max-width: 680px;
+    margin: 5em auto;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    flex-direction: column;
+    text-align: center;
+}
+
+.prop-top-details h2 {
+    font-size: 2.3rem;
+    font-family: "Shippori Mincho";
+    color: var(--blue-color);
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.prop-top-details p {
+    color: var(--text-color);
+    width: 85%;
+    margin: 0 auto;
+    font-size: 1.12rem;
+}
+
+.prop-bottom {
+    margin-bottom: 3em;
+    width: 100%;
+}
